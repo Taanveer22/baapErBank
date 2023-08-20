@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bank inside</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
 
-    <header class="mb-12">
-        <h1 class="text-5xl text-center mt-6">Let's get some
-            <span class="font-semibold text-violet-600">Moooooooney</span>!!!
-        </h1>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bank inside</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
 
-    <main>
+    <body>
 
-        <section class="w-9/12 mx-auto grid grid-cols-3 gap-4 text-white">
+        <header class="mb-12">
+            <h1 class="text-5xl text-center mt-6">Let's get some
+                <span class="font-semibold text-violet-600">Moooooooney</span>!!!
+            </h1>
+        </header>
 
-            <div class="bg-green-400 p-8 rounded-lg">
-                <h2 class="text-2xl">Deposit</h2>
-                <h4 class="text-5xl">$00</h4>
-            </div>
+        <main>
 
-            <div class="bg-yellow-400 p-8 rounded-lg">
-                <h2 class="text-2xl">Withdraw</h2>
-                <h4 class="text-5xl">$00</h4>
-            </div>
+            <section class="w-9/12 mx-auto grid grid-cols-3 gap-4 text-white mb-12">
 
-            <div class="bg-violet-400 p-8 rounded-lg">
-                <h2 class="text-2xl">Balance</h2>
-                <h4 class="text-5xl">$1240</h4>
-            </div>
+                <div class="bg-green-400 p-8 rounded-lg">
+                    <h2 class="text-2xl">Deposit</h2>
+                    <h4 class="text-5xl">$00</h4>
+                </div>
 
-            
-        </section>
+                <div class="bg-yellow-400 p-8 rounded-lg">
+                    <h2 class="text-2xl">Withdraw</h2>
+                    <h4 class="text-5xl">$00</h4>
+                </div>
+
+                <div class="bg-violet-400 p-8 rounded-lg">
+                    <h2 class="text-2xl">Balance</h2>
+                    <h4 class="text-5xl">$1240</h4>
+                </div>
 
 
-    </main>
-    
-</body>
+            </section>
+
+
+            <section class="w-9/12 mx-auto grid grid-cols-2 gap-4 text-white">
+
+
+
+                <div class="bg-fuchsia-400 p-8 rounded-lg">
+
+                    <h2 class="text-2xl mb-2">Please Deposit</h2>
+                    <input class="w-9/12 block mb-2 px-4" type="text" placeholder="amount you want to deposit" id="">
+                    <input id="btn-submit"
+                        class="bg-amber-600 hover:bg-sky-600 text-white font-medium px-8 py-2 rounded-lg" type="submit"
+                        value="deposit">
+
+                </div>
+
+                <div class="bg-blue-400 p-8 rounded-lg">
+
+                    <h2 class="text-2xl mb-2">Please Withdraw</h2>
+                    <input class="w-9/12 block mb-2 px-4" type="text" placeholder="amount you want to withdraw" id="">
+                    <input id="btn-submit"
+                        class="bg-amber-600 hover:bg-green-600 text-white font-medium px-8 py-2 rounded-lg"
+                        type="submit" value="withdraw">
+
+                </div>
+
+
+
+            </section>
+
+
+        </main>
+
+    </body>
+
 </html>

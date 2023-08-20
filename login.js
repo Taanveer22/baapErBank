@@ -28,5 +28,5 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     // don't verify password on client side..it's just a learning purpose
 
 
-// addeventlistener parenthesis
+    // addeventlistener parenthesis
 })
